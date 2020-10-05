@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manual.GuideMenuOrtu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="1. Tracker Menu"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@id/textView16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/guidemenuortu" />
+
+            <TextView
+                android:id="@+id/tv_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:text="Explanation"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tv_exp_stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="in tracker menu you will directed to sub menu maps to see your position in the maps and in tracker menu there are 3 sub menu 1. "
+                android:layout_below="@id/tv_exp"/>
+
+            <TextView
+                android:id="@+id/tv_btn_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_exp_stats"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:text="Button Explanation"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_btn_exp">
+
+                <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:src="@drawable/ic_add_black_24dp"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/tv_btn_exp_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. tutorial 1.a. is by clicking this image to open page add tracked user"
+                    android:layout_below="@id/imageView2"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_btn_exp_1"/>
+
+                <TextView
+                    android:id="@+id/tv_btn_exp_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. tutorial 2. is by click on this image to see list tracked user you already add"
+                    android:layout_below="@id/imageView3"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:src="@drawable/ic_account_circle_black_24dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_btn_exp_2"/>
+
+                <TextView
+                    android:id="@+id/tv_btn_exp_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. tutorial 3. is by click on this image to see your profile"
+                    android:layout_below="@id/imageView4"
+                    android:textAlignment="center"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

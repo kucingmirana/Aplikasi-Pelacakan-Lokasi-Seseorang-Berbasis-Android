@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_list_tracked"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="child" />
+
+    <item
+        android:id="@+id/navigation_lokasi"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="lokasi"/>
+
+    <item
+        android:id="@+id/navigation_akun"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="akun" />
+
+</menu>

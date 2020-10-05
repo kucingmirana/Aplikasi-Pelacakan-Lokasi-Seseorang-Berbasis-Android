@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manual.GuideVerifCode">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="2. Verification Code"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="183dp"
+                android:layout_height="270dp"
+                android:layout_below="@id/textView16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/guideverif" />
+
+            <TextView
+                android:id="@+id/tv_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:text="Explanation"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tv_exp_verif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_exp"
+                android:layout_marginTop="15dp"
+                android:text="you need to wait for auto verification if it takes a long time you can input code manually"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_btn_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_exp_verif"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:text="Button Explanation"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_btn_exp">
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="changephonenumber?"
+                    android:textColor="#0000FF"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1.you can click on 'changephonenumber?' text to go back to login and use another phone number"
+                    android:layout_below="@id/textView15"/>
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

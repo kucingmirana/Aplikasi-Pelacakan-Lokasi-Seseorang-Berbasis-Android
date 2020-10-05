@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMATION"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#00FFFF"
+        android:fontFamily="@font/bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="7dp"
+        android:text="- If you login as a tracked user you can type 'sos' in chat to make your parent phone rings"
+        android:textSize="35dp"
+        android:fontFamily="@font/bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="7dp"
+        android:text="- If you login as a tracker user you can type 'location' in chat to get your child location now"
+        android:textSize="35dp"
+        android:fontFamily="@font/bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Close"
+        android:id="@+id/btn_close_chat_help"
+        android:layout_centerHorizontal="true"/>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">People Tracker</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="child_tracker">People Tracker</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

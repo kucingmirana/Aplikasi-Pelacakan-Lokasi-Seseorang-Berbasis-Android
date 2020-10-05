@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manual.GuideTrackedMenu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="1. Tracked Menu"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_below="@id/textView16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/guidetrackedmenu" />
+
+            <TextView
+                android:id="@+id/tv_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:text="Explanation"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tv_exp_stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="in tracked menu you can setup short message to send the message to tracker user"
+                android:layout_below="@id/tv_exp"/>
+
+            <TextView
+                android:id="@+id/tv_btn_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_exp_stats"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:text="Button Explanation"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_btn_exp">
+
+                <TextView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:textSize="24dp"
+                    android:text="settings profile"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/tv_btn_exp_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. tutorial 1.a. is by click on this image below settings profile text to open settings profile page"
+                    android:layout_below="@id/imageView2"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="tracker profile"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_btn_exp_1"/>
+
+                <TextView
+                    android:id="@+id/tv_btn_exp_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. tutorial 1.b is by click on this image below tracker profile text to open tracker profile page"
+                    android:layout_below="@id/imageView3"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:src="@drawable/ic_chat"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_btn_exp_2"/>
+
+                <TextView
+                    android:id="@+id/tv_btn_exp_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. tutorial 1.c is by click on this image to open chat page with your parent"
+                    android:layout_below="@id/imageView4"
+                    android:textAlignment="center"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>
